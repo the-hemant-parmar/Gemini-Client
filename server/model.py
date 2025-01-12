@@ -2,7 +2,7 @@ import google.generativeai as genai
 
 # import os
 
-with open("../KEY.txt") as f:
+with open("KEY.txt") as f:
     API_KEY = f.read()
     # print(API_KEY)
 

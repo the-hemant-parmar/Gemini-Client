@@ -1,12 +1,14 @@
 KEY.txt
 .env
 
+runner.bat
 _pycache__
 __pycache__
 Include
 Lib
 Scripts
 pyvenv.cfg
+*.pyc
 
 # Logs
 logs
