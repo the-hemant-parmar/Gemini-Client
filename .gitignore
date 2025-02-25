@@ -1,11 +1,14 @@
 KEY.txt
 .env
 
-runner.bat
+clientRunner.bat
+serverRunner.bat
+
 _pycache__
 __pycache__
 Include
-Lib
+# to separate it from the lib folder in the frontend
+server/Lib
 Scripts
 pyvenv.cfg
 *.pyc
@@ -19,6 +22,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# !client/gemini-frontend/lib/*
 node_modules
 dist
 dist-ssr
