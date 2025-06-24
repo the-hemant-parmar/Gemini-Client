@@ -26,11 +26,12 @@
 
   <div id="left">
     
-    <h2>Enter your query to ask</h2>
+    <h2 style="color: #023047">Enter your query to ask</h2>
     
     <div id="ask">
       
-      <input id='question' type="text" bind:value={query} >
+      <textarea id='question' bind:value={query} >
+      </textarea>
       <button {onclick}>Ask</button>
       
     </div>
@@ -46,7 +47,7 @@
 </div>
   
   <style>
-  input {
+  textarea {
     height: 70px;
     min-width: 250px;
     width:100%;
@@ -73,7 +74,7 @@
     justify-content: center;
     min-width: 50%;
     width: 50%;
-    background-color: rgb(35, 110, 175);
+    background-color: #8ecae6;
   }
 
   div#ask {
@@ -91,7 +92,7 @@
 
   div#content {
     height: 729px;
-    background-color: rgb(83, 83, 230);
+    background-color: #023047;
     display: flex;
     justify-content: space-evenly;
   }
